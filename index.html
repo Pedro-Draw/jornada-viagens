@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Jornada Viagens</title>
-    <style>
-      @import url("./css/style.css");
-    </style>
   </head>
-
   <body>
     <header>
       <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
-        class="img-mobile"
+          class="img-mobile"
           src="img/bussola-jornada-branco.png"
-          alt="Bussola do logo Jornada Viagens na cor branco"
+          alt="Bussola do logo Jornada Viagens na cor branca"
         />
-        <img class="img-desktop" src="img/bussula-texto-jornada-branco.png" alt="Logo Jornada Viagens na cor branca">
+        <img
+          class="img-desktop"
+          src="img/bussola-texto-jornada-branco.png"
+          alt="Logo Jornada Viagens na cor branca"
+        />
       </a>
       <div class="navigation-menu">
         <label for="menu">
@@ -31,67 +32,151 @@
             </li>
             <li>
               <a
-                href="pacotes.html" target="_blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a>
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de viagem"
+                >Pacotes de viagem</a
+              >
             </li>
             <li>
-              <a href="contato.html" target="_blank" title="Acessar Contato">Contato</a>
+              <a href="contato.html" target="_blank" title="Acessar Contato"
+                >Contato</a
+              >
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <section class="hero">
+      <div class="hero-img"></div>
+      <h2>
+        Somos uma agência que ama criar viagens inesquecíveis!<br> 
+        Do destino perfeito às atividades que vão marcar sua história, 
+        a gente cuida de tudo com carinho para você só precisar curtir 
+        cada segundo da aventura.
+      </h2>
+    </section>
+    <section class="offers">
+      <div class="section-title">
+        <h2>Ofertas da Semana</h2>
+        <hr />
+        <!-- <hr />  essa tag é usada para dividir usando um _ em baixo do testo -->
+      </div>
+      <div class="offers-cards">
+        <article class="card japao">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Japão <br />
+              <span>R$ 4000</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card san-andreas">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              San Andreas <br />
+              <span>R$ 3000</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card paraiba">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Paraíba <br />
+              <span>R$ 1200</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card manaus">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Manaus <br />
+              <span>R$ 1600</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="categories">
+      <div class="section-title">
+        <h2>Busque por Categoria</h2>
+        <hr />
+      </div>
+      <div class="categories-cards">
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Nacionais"
+        >
+          <img
+            src="img/icone-caminhada.png"
+            alt="ícone cinza representando uma pessoa fazendo tracking"
+          />
+          <h3>
+            Pacotes <br />
+            Nacionais
+          </h3>
+        </a>
 
-    <main>
-      <section class="hero">
-        <h1>Bem-vindo à Jornada Viagens!</h1>
-        <br>
-        <div class="hero-img"></div>
-
-        <br>
-        <h2>
-          Somos uma agência que ama criar viagens inesquecíveis!<br> 
-          Do destino perfeito às atividades que vão marcar sua história, 
-          a gente cuida de tudo com carinho para você só precisar curtir 
-          cada segundo da aventura.
-        </h2>
-      </section>
-
-      <section>
-        <h2>Destinos Populares</h2>
-        <ul>
-          <li>Paris, França</li>
-          <li>Tóquio, Japão</li>
-          <li>Rio de Janeiro, Brasil</li>
-          <li>Sydney, Austrália</li>
-          <li>Cidade do Cabo, África do Sul</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Dicas para uma Viagem Inesquecível</h2>
-        <ol>
-          <li>Planeje com antecedência.</li>
-          <li>Pesquise sobre o destino.</li>
-          <li>Faça um orçamento detalhado.</li>
-          <li>Leve apenas o essencial.</li>
-          <li>Aproveite cada momento!</li>
-        </ol>
-      </section>
-    </main>
-
-    <!-- Se futuramente você quiser adicionar um menu de navegação real, aí sim usa <nav> -->
-    <!--
-    <nav>
-        <ul>
-            <li><a href="#destinos">Destinos</a></li>
-            <li><a href="#dicas">Dicas</a></li>
-        </ul>
-    </nav>
-    -->
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Internacionais"
+        >
+          <img
+            src="img/icone-aviao.png"
+            alt="ícone cinza representando um avião"
+          />
+          <h3>
+            Pacotes <br />
+            Internacionais
+          </h3>
+        </a>
+        <a
+          class="card single-line transfer"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Transfer"
+        >
+          <img
+            src="img/icone-onibus.png"
+            alt="ícone cinza representando um ônibus"
+          />
+          <h3>Transfer</h3>
+        </a>
+        <a
+          class="card single-line"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Seguro Viagem"
+        >
+          <img
+            src="img/icone-planeta.png"
+            alt="ícone cinza representando o planeta terra com um cadeado"
+          />
+          <h3>Seguro Viagem</h3>
+        </a>
+      </div>
+    </section>
   </body>
-  <br />
-  <br />
-  <footer>
-    <p>&copy; 2024 Jornada Viagens. Todos os direitos reservados.</p>
-  </footer>
 </html>
